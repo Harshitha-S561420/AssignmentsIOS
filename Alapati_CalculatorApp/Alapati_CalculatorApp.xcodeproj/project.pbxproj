@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E1F613E2AC0D2BC009D12EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1F613D2AC0D2BC009D12EA /* AppDelegate.swift */; };
+		8E1F61402AC0D2BC009D12EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1F613F2AC0D2BC009D12EA /* SceneDelegate.swift */; };
+		8E1F61422AC0D2BC009D12EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1F61412AC0D2BC009D12EA /* ViewController.swift */; };
+		8E1F61452AC0D2BC009D12EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1F61432AC0D2BC009D12EA /* Main.storyboard */; };
+		8E1F61472AC0D2C0009D12EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1F61462AC0D2C0009D12EA /* Assets.xcassets */; };
+		8E1F614A2AC0D2C0009D12EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1F61482AC0D2C0009D12EA /* LaunchScreen.storyboard */; };
+		8E1F61552AC0D2C0009D12EA /* Alapati_CalculatorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1F61542AC0D2C0009D12EA /* Alapati_CalculatorAppTests.swift */; };
+		8E1F615F2AC0D2C0009D12EA /* Alapati_CalculatorAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1F615E2AC0D2C0009D12EA /* Alapati_CalculatorAppUITests.swift */; };
+		8E1F61612AC0D2C0009D12EA /* Alapati_CalculatorAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1F61602AC0D2C0009D12EA /* Alapati_CalculatorAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E1F61512AC0D2C0009D12EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E1F61322AC0D2BC009D12EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E1F61392AC0D2BC009D12EA;
+			remoteInfo = Alapati_CalculatorApp;
+		};
+		8E1F615B2AC0D2C0009D12EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E1F61322AC0D2BC009D12EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E1F61392AC0D2BC009D12EA;
+			remoteInfo = Alapati_CalculatorApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E1F613A2AC0D2BC009D12EA /* Alapati_CalculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alapati_CalculatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1F613D2AC0D2BC009D12EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E1F613F2AC0D2BC009D12EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8E1F61412AC0D2BC009D12EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E1F61442AC0D2BC009D12EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E1F61462AC0D2C0009D12EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E1F61492AC0D2C0009D12EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E1F614B2AC0D2C0009D12EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1F61502AC0D2C0009D12EA /* Alapati_CalculatorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Alapati_CalculatorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1F61542AC0D2C0009D12EA /* Alapati_CalculatorAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alapati_CalculatorAppTests.swift; sourceTree = "<group>"; };
+		8E1F615A2AC0D2C0009D12EA /* Alapati_CalculatorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Alapati_CalculatorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1F615E2AC0D2C0009D12EA /* Alapati_CalculatorAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alapati_CalculatorAppUITests.swift; sourceTree = "<group>"; };
+		8E1F61602AC0D2C0009D12EA /* Alapati_CalculatorAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alapati_CalculatorAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E1F61372AC0D2BC009D12EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1F614D2AC0D2C0009D12EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1F61572AC0D2C0009D12EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E1F61312AC0D2BC009D12EA = {
+			isa = PBXGroup;
+			children = (
+				8E1F613C2AC0D2BC009D12EA /* Alapati_CalculatorApp */,
+				8E1F61532AC0D2C0009D12EA /* Alapati_CalculatorAppTests */,
+				8E1F615D2AC0D2C0009D12EA /* Alapati_CalculatorAppUITests */,
+				8E1F613B2AC0D2BC009D12EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E1F613B2AC0D2BC009D12EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E1F613A2AC0D2BC009D12EA /* Alapati_CalculatorApp.app */,
+				8E1F61502AC0D2C0009D12EA /* Alapati_CalculatorAppTests.xctest */,
+				8E1F615A2AC0D2C0009D12EA /* Alapati_CalculatorAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E1F613C2AC0D2BC009D12EA /* Alapati_CalculatorApp */ = {
+			isa = PBXGroup;
+			children = (
+				8E1F613D2AC0D2BC009D12EA /* AppDelegate.swift */,
+				8E1F613F2AC0D2BC009D12EA /* SceneDelegate.swift */,
+				8E1F61412AC0D2BC009D12EA /* ViewController.swift */,
+				8E1F61432AC0D2BC009D12EA /* Main.storyboard */,
+				8E1F61462AC0D2C0009D12EA /* Assets.xcassets */,
+				8E1F61482AC0D2C0009D12EA /* LaunchScreen.storyboard */,
+				8E1F614B2AC0D2C0009D12EA /* Info.plist */,
+			);
+			path = Alapati_CalculatorApp;
+			sourceTree = "<group>";
+		};
+		8E1F61532AC0D2C0009D12EA /* Alapati_CalculatorAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E1F61542AC0D2C0009D12EA /* Alapati_CalculatorAppTests.swift */,
+			);
+			path = Alapati_CalculatorAppTests;
+			sourceTree = "<group>";
+		};
+		8E1F615D2AC0D2C0009D12EA /* Alapati_CalculatorAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E1F615E2AC0D2C0009D12EA /* Alapati_CalculatorAppUITests.swift */,
+				8E1F61602AC0D2C0009D12EA /* Alapati_CalculatorAppUITestsLaunchTests.swift */,
+			);
+			path = Alapati_CalculatorAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E1F61392AC0D2BC009D12EA /* Alapati_CalculatorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1F61642AC0D2C0009D12EA /* Build configuration list for PBXNativeTarget "Alapati_CalculatorApp" */;
+			buildPhases = (
+				8E1F61362AC0D2BC009D12EA /* Sources */,
+				8E1F61372AC0D2BC009D12EA /* Frameworks */,
+				8E1F61382AC0D2BC009D12EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alapati_CalculatorApp;
+			productName = Alapati_CalculatorApp;
+			productReference = 8E1F613A2AC0D2BC009D12EA /* Alapati_CalculatorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E1F614F2AC0D2C0009D12EA /* Alapati_CalculatorAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1F61672AC0D2C0009D12EA /* Build configuration list for PBXNativeTarget "Alapati_CalculatorAppTests" */;
+			buildPhases = (
+				8E1F614C2AC0D2C0009D12EA /* Sources */,
+				8E1F614D2AC0D2C0009D12EA /* Frameworks */,
+				8E1F614E2AC0D2C0009D12EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E1F61522AC0D2C0009D12EA /* PBXTargetDependency */,
+			);
+			name = Alapati_CalculatorAppTests;
+			productName = Alapati_CalculatorAppTests;
+			productReference = 8E1F61502AC0D2C0009D12EA /* Alapati_CalculatorAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E1F61592AC0D2C0009D12EA /* Alapati_CalculatorAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1F616A2AC0D2C0009D12EA /* Build configuration list for PBXNativeTarget "Alapati_CalculatorAppUITests" */;
+			buildPhases = (
+				8E1F61562AC0D2C0009D12EA /* Sources */,
+				8E1F61572AC0D2C0009D12EA /* Frameworks */,
+				8E1F61582AC0D2C0009D12EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E1F615C2AC0D2C0009D12EA /* PBXTargetDependency */,
+			);
+			name = Alapati_CalculatorAppUITests;
+			productName = Alapati_CalculatorAppUITests;
+			productReference = 8E1F615A2AC0D2C0009D12EA /* Alapati_CalculatorAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E1F61322AC0D2BC009D12EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8E1F61392AC0D2BC009D12EA = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8E1F614F2AC0D2C0009D12EA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8E1F61392AC0D2BC009D12EA;
+					};
+					8E1F61592AC0D2C0009D12EA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8E1F61392AC0D2BC009D12EA;
+					};
+				};
+			};
+			buildConfigurationList = 8E1F61352AC0D2BC009D12EA /* Build configuration list for PBXProject "Alapati_CalculatorApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E1F61312AC0D2BC009D12EA;
+			productRefGroup = 8E1F613B2AC0D2BC009D12EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E1F61392AC0D2BC009D12EA /* Alapati_CalculatorApp */,
+				8E1F614F2AC0D2C0009D12EA /* Alapati_CalculatorAppTests */,
+				8E1F61592AC0D2C0009D12EA /* Alapati_CalculatorAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E1F61382AC0D2BC009D12EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1F614A2AC0D2C0009D12EA /* LaunchScreen.storyboard in Resources */,
+				8E1F61472AC0D2C0009D12EA /* Assets.xcassets in Resources */,
+				8E1F61452AC0D2BC009D12EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1F614E2AC0D2C0009D12EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1F61582AC0D2C0009D12EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E1F61362AC0D2BC009D12EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1F61422AC0D2BC009D12EA /* ViewController.swift in Sources */,
+				8E1F613E2AC0D2BC009D12EA /* AppDelegate.swift in Sources */,
+				8E1F61402AC0D2BC009D12EA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1F614C2AC0D2C0009D12EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1F61552AC0D2C0009D12EA /* Alapati_CalculatorAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1F61562AC0D2C0009D12EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1F615F2AC0D2C0009D12EA /* Alapati_CalculatorAppUITests.swift in Sources */,
+				8E1F61612AC0D2C0009D12EA /* Alapati_CalculatorAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E1F61522AC0D2C0009D12EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E1F61392AC0D2BC009D12EA /* Alapati_CalculatorApp */;
+			targetProxy = 8E1F61512AC0D2C0009D12EA /* PBXContainerItemProxy */;
+		};
+		8E1F615C2AC0D2C0009D12EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E1F61392AC0D2BC009D12EA /* Alapati_CalculatorApp */;
+			targetProxy = 8E1F615B2AC0D2C0009D12EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E1F61432AC0D2BC009D12EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E1F61442AC0D2BC009D12EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E1F61482AC0D2C0009D12EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E1F61492AC0D2C0009D12EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E1F61622AC0D2C0009D12EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E1F61632AC0D2C0009D12EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E1F61652AC0D2C0009D12EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Alapati_CalculatorApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Alapati-CalculatorApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E1F61662AC0D2C0009D12EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Alapati_CalculatorApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Alapati-CalculatorApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E1F61682AC0D2C0009D12EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Alapati-CalculatorAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alapati_CalculatorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Alapati_CalculatorApp";
+			};
+			name = Debug;
+		};
+		8E1F61692AC0D2C0009D12EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Alapati-CalculatorAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alapati_CalculatorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Alapati_CalculatorApp";
+			};
+			name = Release;
+		};
+		8E1F616B2AC0D2C0009D12EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Alapati-CalculatorAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Alapati_CalculatorApp;
+			};
+			name = Debug;
+		};
+		8E1F616C2AC0D2C0009D12EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Alapati-CalculatorAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Alapati_CalculatorApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E1F61352AC0D2BC009D12EA /* Build configuration list for PBXProject "Alapati_CalculatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1F61622AC0D2C0009D12EA /* Debug */,
+				8E1F61632AC0D2C0009D12EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E1F61642AC0D2C0009D12EA /* Build configuration list for PBXNativeTarget "Alapati_CalculatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1F61652AC0D2C0009D12EA /* Debug */,
+				8E1F61662AC0D2C0009D12EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E1F61672AC0D2C0009D12EA /* Build configuration list for PBXNativeTarget "Alapati_CalculatorAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1F61682AC0D2C0009D12EA /* Debug */,
+				8E1F61692AC0D2C0009D12EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E1F616A2AC0D2C0009D12EA /* Build configuration list for PBXNativeTarget "Alapati_CalculatorAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1F616B2AC0D2C0009D12EA /* Debug */,
+				8E1F616C2AC0D2C0009D12EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E1F61322AC0D2BC009D12EA /* Project object */;
+}
